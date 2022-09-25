@@ -1,0 +1,13 @@
+"UikitButtonTitle" = "UIKit";
+"SwiftUIButtonTitle" = "SwiftUI";
+"SelectionTitle" = "Seleziona versione interfaccia";
+"NumberLabel" = "News number";
+"TitleLabel" = "Default title";
+"DateLabel" = "DD/MM/YYYY";
+"NumberErrorLabel" = "Sorry number not Found";
+"TitleErrorLabel" = "Sorry title not found";
+"DateErrorLabel" = "Sorry date not found";
+"SubLabel" = "subtitle";
+"SubErrorLabel" = "Sorry subtitle not found";
+"BodyErrorLabel" = "Sorry body not found";
+"BodyLabel" = "Quisque maximus felis vel felis mollis varius. Mauris egestas gravida dolor sed interdum. Duis pharetra scelerisque ante, facilisis pulvinar tellus rhoncus in. Integer ac libero tempus, laoreet mi quis, blandit tortor. Morbi ut nunc fermentum, euismod dui id, ullamcorper nibh. Maecenas convallis eleifend aliquam. Suspendisse potenti. Pellentesque eu gravida justo. Nulla bibendum ipsum vel dolor euismod elementum. Quisque congue, neque vel mattis posuere, velit erat euismod odio, consectetur ultricies lacus tortor at elit. Quisque venenatis rutrum eros, in facilisis arcu euismod id. Pellentesque accumsan orci id leo mattis euismod eu at ex. Nulla ut arcu ligula. Aliquam erat volutpat. Fusce sed mauris fringilla, pharetra purus interdum, volutpat mi.Quisque maximus felis vel felis mollis varius. Mauris egestas gravida dolor sed interdum. Duis pharetra scelerisque ante, facilisis pulvinar tellus rhoncus in.";

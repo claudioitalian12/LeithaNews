@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D06449F28DC257D00A32C96 /* LeithaUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5D06449E28DC257D00A32C96 /* LeithaUI */; };
+		5DAF152928DA48590091D578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF152828DA48590091D578 /* AppDelegate.swift */; };
+		5DAF153228DA485B0091D578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAF153128DA485B0091D578 /* Assets.xcassets */; };
+		5DAF154028DA485B0091D578 /* LeithaNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF153F28DA485B0091D578 /* LeithaNewsTests.swift */; };
+		5DAF154A28DA485C0091D578 /* LeithaNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF154928DA485C0091D578 /* LeithaNewsUITests.swift */; };
+		5DAF154C28DA485C0091D578 /* LeithaNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF154B28DA485C0091D578 /* LeithaNewsUITestsLaunchTests.swift */; };
+		5DAF156428DA569C0091D578 /* BaseLeithaNews in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAF156328DA569C0091D578 /* BaseLeithaNews */; };
+		5DAF156628DA56AC0091D578 /* LeithaNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAF156528DA56AC0091D578 /* LeithaNavigator */; };
+		5DAF156C28DA56AC0091D578 /* LeithaUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAF156B28DA56AC0091D578 /* LeithaUI */; };
+		5DAF156E28DA56AC0091D578 /* LeithaViewModel in Frameworks */ = {isa = PBXBuildFile; productRef = 5DAF156D28DA56AC0091D578 /* LeithaViewModel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAF153C28DA485B0091D578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF151D28DA48590091D578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF152428DA48590091D578;
+			remoteInfo = LeithaNews;
+		};
+		5DAF154628DA485C0091D578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF151D28DA48590091D578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF152428DA48590091D578;
+			remoteInfo = LeithaNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DAF152528DA48590091D578 /* LeithaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeithaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF152828DA48590091D578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DAF153128DA485B0091D578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DAF153628DA485B0091D578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF153B28DA485B0091D578 /* LeithaNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeithaNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF153F28DA485B0091D578 /* LeithaNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeithaNewsTests.swift; sourceTree = "<group>"; };
+		5DAF154528DA485C0091D578 /* LeithaNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeithaNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF154928DA485C0091D578 /* LeithaNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeithaNewsUITests.swift; sourceTree = "<group>"; };
+		5DAF154B28DA485C0091D578 /* LeithaNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeithaNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DAF155B28DA4CC90091D578 /* BaseLeithaNews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BaseLeithaNews; sourceTree = "<group>"; };
+		5DAF155C28DA4D050091D578 /* LeithaNavigator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LeithaNavigator; sourceTree = "<group>"; };
+		5DAF155D28DA4D2A0091D578 /* LeithaViewModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LeithaViewModel; sourceTree = "<group>"; };
+		5DAF155E28DA4D520091D578 /* LeithaUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LeithaUI; sourceTree = "<group>"; };
+		5DAF156028DA4DA40091D578 /* LeithaNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LeithaNetwork; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAF152228DA48590091D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF156C28DA56AC0091D578 /* LeithaUI in Frameworks */,
+				5DAF156428DA569C0091D578 /* BaseLeithaNews in Frameworks */,
+				5DAF156E28DA56AC0091D578 /* LeithaViewModel in Frameworks */,
+				5DAF156628DA56AC0091D578 /* LeithaNavigator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF153828DA485B0091D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF154228DA485C0091D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D06449F28DC257D00A32C96 /* LeithaUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAF151C28DA48590091D578 = {
+			isa = PBXGroup;
+			children = (
+				5DAF155A28DA49820091D578 /* LocalPackage */,
+				5DAF152728DA48590091D578 /* LeithaNews */,
+				5DAF153E28DA485B0091D578 /* LeithaNewsTests */,
+				5DAF154828DA485C0091D578 /* LeithaNewsUITests */,
+				5DAF152628DA48590091D578 /* Products */,
+				5DAF156228DA569C0091D578 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAF152628DA48590091D578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF152528DA48590091D578 /* LeithaNews.app */,
+				5DAF153B28DA485B0091D578 /* LeithaNewsTests.xctest */,
+				5DAF154528DA485C0091D578 /* LeithaNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAF152728DA48590091D578 /* LeithaNews */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF155928DA487B0091D578 /* Resources */,
+				5DAF155828DA48750091D578 /* App */,
+			);
+			path = LeithaNews;
+			sourceTree = "<group>";
+		};
+		5DAF153E28DA485B0091D578 /* LeithaNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF153F28DA485B0091D578 /* LeithaNewsTests.swift */,
+			);
+			path = LeithaNewsTests;
+			sourceTree = "<group>";
+		};
+		5DAF154828DA485C0091D578 /* LeithaNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF154928DA485C0091D578 /* LeithaNewsUITests.swift */,
+				5DAF154B28DA485C0091D578 /* LeithaNewsUITestsLaunchTests.swift */,
+			);
+			path = LeithaNewsUITests;
+			sourceTree = "<group>";
+		};
+		5DAF155828DA48750091D578 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF153628DA485B0091D578 /* Info.plist */,
+				5DAF152828DA48590091D578 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5DAF155928DA487B0091D578 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF153128DA485B0091D578 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DAF155A28DA49820091D578 /* LocalPackage */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF155B28DA4CC90091D578 /* BaseLeithaNews */,
+				5DAF155E28DA4D520091D578 /* LeithaUI */,
+				5DAF155D28DA4D2A0091D578 /* LeithaViewModel */,
+				5DAF156028DA4DA40091D578 /* LeithaNetwork */,
+				5DAF155C28DA4D050091D578 /* LeithaNavigator */,
+			);
+			path = LocalPackage;
+			sourceTree = "<group>";
+		};
+		5DAF156228DA569C0091D578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAF152428DA48590091D578 /* LeithaNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF154F28DA485C0091D578 /* Build configuration list for PBXNativeTarget "LeithaNews" */;
+			buildPhases = (
+				5DAF152128DA48590091D578 /* Sources */,
+				5DAF152228DA48590091D578 /* Frameworks */,
+				5DAF152328DA48590091D578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeithaNews;
+			packageProductDependencies = (
+				5DAF156328DA569C0091D578 /* BaseLeithaNews */,
+				5DAF156528DA56AC0091D578 /* LeithaNavigator */,
+				5DAF156B28DA56AC0091D578 /* LeithaUI */,
+				5DAF156D28DA56AC0091D578 /* LeithaViewModel */,
+			);
+			productName = LeithaNews;
+			productReference = 5DAF152528DA48590091D578 /* LeithaNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAF153A28DA485B0091D578 /* LeithaNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF155228DA485C0091D578 /* Build configuration list for PBXNativeTarget "LeithaNewsTests" */;
+			buildPhases = (
+				5DAF153728DA485B0091D578 /* Sources */,
+				5DAF153828DA485B0091D578 /* Frameworks */,
+				5DAF153928DA485B0091D578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF153D28DA485B0091D578 /* PBXTargetDependency */,
+			);
+			name = LeithaNewsTests;
+			productName = LeithaNewsTests;
+			productReference = 5DAF153B28DA485B0091D578 /* LeithaNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DAF154428DA485C0091D578 /* LeithaNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF155528DA485C0091D578 /* Build configuration list for PBXNativeTarget "LeithaNewsUITests" */;
+			buildPhases = (
+				5DAF154128DA485C0091D578 /* Sources */,
+				5DAF154228DA485C0091D578 /* Frameworks */,
+				5DAF154328DA485C0091D578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF154728DA485C0091D578 /* PBXTargetDependency */,
+			);
+			name = LeithaNewsUITests;
+			packageProductDependencies = (
+				5D06449E28DC257D00A32C96 /* LeithaUI */,
+			);
+			productName = LeithaNewsUITests;
+			productReference = 5DAF154528DA485C0091D578 /* LeithaNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAF151D28DA48590091D578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5DAF152428DA48590091D578 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5DAF153A28DA485B0091D578 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5DAF152428DA48590091D578;
+					};
+					5DAF154428DA485C0091D578 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5DAF152428DA48590091D578;
+					};
+				};
+			};
+			buildConfigurationList = 5DAF152028DA48590091D578 /* Build configuration list for PBXProject "LeithaNews" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAF151C28DA48590091D578;
+			productRefGroup = 5DAF152628DA48590091D578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAF152428DA48590091D578 /* LeithaNews */,
+				5DAF153A28DA485B0091D578 /* LeithaNewsTests */,
+				5DAF154428DA485C0091D578 /* LeithaNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAF152328DA48590091D578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF153228DA485B0091D578 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF153928DA485B0091D578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF154328DA485C0091D578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAF152128DA48590091D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF152928DA48590091D578 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF153728DA485B0091D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF154028DA485B0091D578 /* LeithaNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF154128DA485C0091D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF154C28DA485C0091D578 /* LeithaNewsUITestsLaunchTests.swift in Sources */,
+				5DAF154A28DA485C0091D578 /* LeithaNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAF153D28DA485B0091D578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF152428DA48590091D578 /* LeithaNews */;
+			targetProxy = 5DAF153C28DA485B0091D578 /* PBXContainerItemProxy */;
+		};
+		5DAF154728DA485C0091D578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF152428DA48590091D578 /* LeithaNews */;
+			targetProxy = 5DAF154628DA485C0091D578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DAF154D28DA485C0091D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DAF154E28DA485C0091D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAF155028DA485C0091D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983B8C4PLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeithaNews/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leitha.dev.LeithaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5DAF155128DA485C0091D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983B8C4PLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeithaNews/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leitha.dev.LeithaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5DAF155328DA485C0091D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983B8C4PLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leitha.dev.LeithaNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeithaNews.app/LeithaNews";
+			};
+			name = Debug;
+		};
+		5DAF155428DA485C0091D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983B8C4PLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leitha.dev.LeithaNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeithaNews.app/LeithaNews";
+			};
+			name = Release;
+		};
+		5DAF155628DA485C0091D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983B8C4PLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leitha.dev.LeithaNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeithaNews;
+			};
+			name = Debug;
+		};
+		5DAF155728DA485C0091D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983B8C4PLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leitha.dev.LeithaNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeithaNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAF152028DA48590091D578 /* Build configuration list for PBXProject "LeithaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF154D28DA485C0091D578 /* Debug */,
+				5DAF154E28DA485C0091D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF154F28DA485C0091D578 /* Build configuration list for PBXNativeTarget "LeithaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF155028DA485C0091D578 /* Debug */,
+				5DAF155128DA485C0091D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF155228DA485C0091D578 /* Build configuration list for PBXNativeTarget "LeithaNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF155328DA485C0091D578 /* Debug */,
+				5DAF155428DA485C0091D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF155528DA485C0091D578 /* Build configuration list for PBXNativeTarget "LeithaNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF155628DA485C0091D578 /* Debug */,
+				5DAF155728DA485C0091D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D06449E28DC257D00A32C96 /* LeithaUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LeithaUI;
+		};
+		5DAF156328DA569C0091D578 /* BaseLeithaNews */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BaseLeithaNews;
+		};
+		5DAF156528DA56AC0091D578 /* LeithaNavigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LeithaNavigator;
+		};
+		5DAF156B28DA56AC0091D578 /* LeithaUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LeithaUI;
+		};
+		5DAF156D28DA56AC0091D578 /* LeithaViewModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LeithaViewModel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5DAF151D28DA48590091D578 /* Project object */;
+}
